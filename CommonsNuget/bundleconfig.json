@@ -1,0 +1,27 @@
+[
+  {
+    "outputFileName": "wwwroot/css/commons-ui.min.css", // Nombre del archivo CSS agrupado y minificado
+    "inputFiles": [
+      "wwwroot/css/adminlte.min.css"
+      // Si tuvieras m�s archivos CSS propios para tu biblioteca, los a�ades aqu�:
+      // "wwwroot/css/mi-estilo-personalizado.css"
+    ],
+    "minify": {
+      "enabled": true // Habilita la minificaci�n para CSS
+    }
+  },
+  {
+    "outputFileName": "wwwroot/js/commons-ui.min.js", // Nombre del archivo JS agrupado y minificado
+    "inputFiles": [
+      // El orden es MUY IMPORTANTE para JavaScript:
+      "wwwroot/js/jquery-3.7.1.min.js", // jQuery primero
+      "wwwroot/js/adminlte.min.js", // AdminLTE despu�s (si depende de jQuery)
+      "wwwroot/js/bootstrap.min.js" // AdminLTE despu�s (si depende de jQuery)
+    ],
+    "minify": {
+      "enabled": true, // Habilita la minificaci�n para JS
+      "renameLocals": true // Renombra variables locales para ahorrar m�s espacio (opcional pero recomendado)
+    },
+    "sourceMap": false // Cambia a true si necesitas mapas de origen para depurar el JS minificado en el navegador
+  }
+]

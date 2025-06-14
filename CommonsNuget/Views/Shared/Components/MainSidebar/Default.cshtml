@@ -1,0 +1,108 @@
+﻿@model List<SidebarMenu>
+@using CommonsNuget.Models
+@using CommonsNuget.Models.Shared 
+
+<aside class="main-sidebar sidebar-dark-primary elevation-4">
+    <a href="~/" class="brand-link">
+        <img src="@ViewBag.LogoPath" alt="Logo" class="brand-image img-circle elevation-3" style="opacity: .8" />
+        <span class="brand-text font-weight-light">@ViewBag.AppName</span>
+    </a>
+
+    <div class="sidebar">
+        <nav class="mt-2">
+            <ul class="nav nav-pills nav-sidebar flex-column"
+                data-widget="treeview"
+                role="menu"
+                data-accordion="true">
+
+                @if (Model != null && Model.Any())
+                {
+                    foreach (var item in Model) // NIVEL 1
+                    {
+                        if (item.Type == SidebarMenuType.Header)
+                        {
+                            <li class="nav-header">@item.Name</li>
+                        }
+                        else if (item.Type == SidebarMenuType.Link)
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link" href="@item.URLPath" @(item.OpenInNewTab ? "target=\"_blank\" rel=\"noopener noreferrer\"" : "")>
+                                    <i class="nav-icon @item.IconClassName"></i>
+                                    <p>@item.Name</p>
+                                </a>
+                            </li>
+                        }
+                        else if (item.Type == SidebarMenuType.Tree) // Padre del NIVEL 2
+                        {
+                            <li class="nav-item @(item.TreeChild?.Any() == true ? "has-treeview" : "")">
+                                <a href="@(item.TreeChild?.Any() == true ? "#" : (string.IsNullOrEmpty(item.URLPath) ? "#" : item.URLPath))"
+                                   class="nav-link"
+                                @(item.TreeChild?.Any() != true && item.OpenInNewTab && !string.IsNullOrEmpty(item.URLPath) ? "target=\"_blank\" rel=\"noopener noreferrer\"" : "")>
+                                    <i class="nav-icon @item.IconClassName"></i>
+                                    <p>
+                                        @item.Name
+                                        @if (item.TreeChild?.Any() == true)
+                                        {
+                                            <i class="right fas fa-angle-left"></i>
+                                        }
+                                    </p>
+                                </a>
+                                @if (item.TreeChild?.Any() == true)
+                                {
+                                    <ul class="nav nav-treeview">
+                                        @foreach (var child in item.TreeChild) // NIVEL 2 Items
+                                        {
+                                            if (child.Type == SidebarMenuType.Link)
+                                            {
+                                                <li class="nav-item">
+                                                    <a href="@child.URLPath" class="nav-link" @(child.OpenInNewTab ? "target=\"_blank\" rel=\"noopener noreferrer\"" : "")>
+                                                        <i class="nav-icon @child.IconClassName"></i>
+                                                        <p>@child.Name</p>
+                                                    </a>
+                                                </li>
+                                            }
+                                            else if (child.Type == SidebarMenuType.Tree) // Padre del NIVEL 3
+                                            {
+                                                <li class="nav-item @(child.TreeChild?.Any() == true ? "has-treeview" : "")">
+                                                    <a href="@(child.TreeChild?.Any() == true ? "#" : (string.IsNullOrEmpty(child.URLPath) ? "#" : child.URLPath))"
+                                                       class="nav-link"
+                                                    @(child.TreeChild?.Any() != true && child.OpenInNewTab && !string.IsNullOrEmpty(child.URLPath) ? "target=\"_blank\" rel=\"noopener noreferrer\"" : "")>
+                                                        <i class="nav-icon @child.IconClassName"></i>
+                                                        <p>
+                                                            @child.Name
+                                                            @if (child.TreeChild?.Any() == true)
+                                                            {
+                                                                <i class="right fas fa-angle-left"></i>
+                                                            }
+                                                        </p>
+                                                    </a>
+                                                    @if (child.TreeChild?.Any() == true)
+                                                    {
+                                                        <ul class="nav nav-treeview">
+                                                            @foreach (var grandChild in child.TreeChild) // NIVEL 3 Items
+                                                            {
+                                                                // Para el Nivel 3, los items se tratarán como enlaces finales.
+                                                                // Si un grandChild fuera SidebarMenuType.Tree, no se expandiría más con esta lógica.
+                                                                <li class="nav-item">
+                                                                    <a href="@grandChild.URLPath" class="nav-link" @(grandChild.OpenInNewTab ? "target=\"_blank\" rel=\"noopener noreferrer\"" : "")>
+                                                                        <i class="nav-icon @grandChild.IconClassName"></i> <p>@grandChild.Name</p>
+                                                                    </a>
+                                                                </li>
+                                                            }
+                                                        </ul>
+                                                        // Fin del Submenú NIVEL 3
+                                                    }
+                                                </li>
+                                            }
+                                        }
+                                    </ul>
+                                    // Fin del Submenú NIVEL 2
+                                }
+                            </li>
+                        }
+                    }
+                }
+            </ul>
+        </nav>
+    </div>
+</aside>

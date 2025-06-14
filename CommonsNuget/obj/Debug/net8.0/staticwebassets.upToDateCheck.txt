@@ -1,0 +1,10 @@
+wwwroot\background.png
+wwwroot\css\adminlte.min.css
+wwwroot\css\commons-ui.min.css
+wwwroot\exampleJsInterop.js
+wwwroot\img\logo.jpg
+wwwroot\js\adminlte.min.js
+wwwroot\js\bootstrap.min.js
+wwwroot\js\commons-ui.min.js
+wwwroot\js\jquery-3.7.1.min.js
+wwwroot\js\main.js

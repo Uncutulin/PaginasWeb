@@ -1,0 +1,1258 @@
+{
+  "Version": 1,
+  "Hash": "hRvxfzEKUloTFCvBzv/2PnDt2HXEXNzTqnjOKlLE2QU=",
+  "Source": "CommonsNuget",
+  "BasePath": "_content/CommonsNuget",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "CommonsNuget\\wwwroot",
+      "Source": "CommonsNuget",
+      "ContentRoot": "D:\\ProyectosPropios\\PaginasWeb\\CommonsNuget\\wwwroot\\",
+      "BasePath": "_content/CommonsNuget",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "D:\\ProyectosPropios\\PaginasWeb\\CommonsNuget\\obj\\Debug\\net8.0\\scopedcss\\bundle\\CommonsNuget.styles.css",
+      "SourceId": "CommonsNuget",
+      "SourceType": "Computed",
+      "ContentRoot": "D:\\ProyectosPropios\\PaginasWeb\\CommonsNuget\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+      "BasePath": "_content/CommonsNuget",
+      "RelativePath": "CommonsNuget#[.{fingerprint}]?.styles.css",
+      "AssetKind": "All",
+      "AssetMode": "CurrentProject",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ApplicationBundle",
+      "Fingerprint": "1ltyx9qtqw",
+      "Integrity": "RS91EyLolhgLm5y4GnVliZ4xDcn7vyeTcf4MP4587C8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "D:\\ProyectosPropios\\PaginasWeb\\CommonsNuget\\obj\\Debug\\net8.0\\scopedcss\\bundle\\CommonsNuget.styles.css"
+    },
+    {
+      "Identity": "D:\\ProyectosPropios\\PaginasWeb\\CommonsNuget\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\CommonsNuget.bundle.scp.css",
+      "SourceId": "CommonsNuget",
+      "SourceType": "Computed",
+      "ContentRoot": "D:\\ProyectosPropios\\PaginasWeb\\CommonsNuget\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
+      "BasePath": "_content/CommonsNuget",
+      "RelativePath": "CommonsNuget#[.{fingerprint}]!.bundle.scp.css",
+      "AssetKind": "All",
+      "AssetMode": "Reference",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ProjectBundle",
+      "Fingerprint": "1ltyx9qtqw",
+      "Integrity": "RS91EyLolhgLm5y4GnVliZ4xDcn7vyeTcf4MP4587C8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "D:\\ProyectosPropios\\PaginasWeb\\CommonsNuget\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\CommonsNuget.bundle.scp.css"
+    },
+    {
+      "Identity": "D:\\ProyectosPropios\\PaginasWeb\\CommonsNuget\\wwwroot\\background.png",
+      "SourceId": "CommonsNuget",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\ProyectosPropios\\PaginasWeb\\CommonsNuget\\wwwroot\\",
+      "BasePath": "_content/CommonsNuget",
+      "RelativePath": "background#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "x2rx4ajns0",
+      "Integrity": "WeOKCkI7IdJHs2kCqsKgLfiWX4/sNPbaRUspOLefkCY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\background.png"
+    },
+    {
+      "Identity": "D:\\ProyectosPropios\\PaginasWeb\\CommonsNuget\\wwwroot\\css\\adminlte.min.css",
+      "SourceId": "CommonsNuget",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\ProyectosPropios\\PaginasWeb\\CommonsNuget\\wwwroot\\",
+      "BasePath": "_content/CommonsNuget",
+      "RelativePath": "css/adminlte.min#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "32enyiajfk",
+      "Integrity": "FQ+k0mIFfWXVTaW1arh3qKx8IXX5Bm5f6QG+0pkUjaE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\adminlte.min.css"
+    },
+    {
+      "Identity": "D:\\ProyectosPropios\\PaginasWeb\\CommonsNuget\\wwwroot\\css\\commons-ui.min.css",
+      "SourceId": "CommonsNuget",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\ProyectosPropios\\PaginasWeb\\CommonsNuget\\wwwroot\\",
+      "BasePath": "_content/CommonsNuget",
+      "RelativePath": "css/commons-ui.min#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "dzuipm7j99",
+      "Integrity": "p5ESzzl22Hj7Zm7mPsKuKIj109KGAEp4AZ8wZgpxZpk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\commons-ui.min.css"
+    },
+    {
+      "Identity": "D:\\ProyectosPropios\\PaginasWeb\\CommonsNuget\\wwwroot\\exampleJsInterop.js",
+      "SourceId": "CommonsNuget",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\ProyectosPropios\\PaginasWeb\\CommonsNuget\\wwwroot\\",
+      "BasePath": "_content/CommonsNuget",
+      "RelativePath": "exampleJsInterop#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "6pqz8bsss0",
+      "Integrity": "FrrTtczTUEHjkhc/zWRPC7CmxeXI0JCZGc1+76qQ8B4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\exampleJsInterop.js"
+    },
+    {
+      "Identity": "D:\\ProyectosPropios\\PaginasWeb\\CommonsNuget\\wwwroot\\img\\logo.jpg",
+      "SourceId": "CommonsNuget",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\ProyectosPropios\\PaginasWeb\\CommonsNuget\\wwwroot\\",
+      "BasePath": "_content/CommonsNuget",
+      "RelativePath": "img/logo#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ouagw80s3n",
+      "Integrity": "ECWdcCeyPdDDNzoQt0V7MbXagABYQ3UGX+F81E5nsKU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\logo.jpg"
+    },
+    {
+      "Identity": "D:\\ProyectosPropios\\PaginasWeb\\CommonsNuget\\wwwroot\\js\\adminlte.min.js",
+      "SourceId": "CommonsNuget",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\ProyectosPropios\\PaginasWeb\\CommonsNuget\\wwwroot\\",
+      "BasePath": "_content/CommonsNuget",
+      "RelativePath": "js/adminlte.min#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "9v1wmpbcea",
+      "Integrity": "dVs7YxkIJMdWKIx+E4Z7KGIrsH2P7MHj4WDNvzTzsQU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\adminlte.min.js"
+    },
+    {
+      "Identity": "D:\\ProyectosPropios\\PaginasWeb\\CommonsNuget\\wwwroot\\js\\bootstrap.min.js",
+      "SourceId": "CommonsNuget",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\ProyectosPropios\\PaginasWeb\\CommonsNuget\\wwwroot\\",
+      "BasePath": "_content/CommonsNuget",
+      "RelativePath": "js/bootstrap.min#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "9cwz7g1qx8",
+      "Integrity": "ecWZ3XYM7AwWIaGvSdmipJ2l1F4bN9RXW6zgpeAiZYI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\bootstrap.min.js"
+    },
+    {
+      "Identity": "D:\\ProyectosPropios\\PaginasWeb\\CommonsNuget\\wwwroot\\js\\commons-ui.min.js",
+      "SourceId": "CommonsNuget",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\ProyectosPropios\\PaginasWeb\\CommonsNuget\\wwwroot\\",
+      "BasePath": "_content/CommonsNuget",
+      "RelativePath": "js/commons-ui.min#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "q0esc8benk",
+      "Integrity": "Bu4O5eTXOoH3M0JYvZPaSyiwxY+lhINwG20kNhV9DPU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\commons-ui.min.js"
+    },
+    {
+      "Identity": "D:\\ProyectosPropios\\PaginasWeb\\CommonsNuget\\wwwroot\\js\\jquery-3.7.1.min.js",
+      "SourceId": "CommonsNuget",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\ProyectosPropios\\PaginasWeb\\CommonsNuget\\wwwroot\\",
+      "BasePath": "_content/CommonsNuget",
+      "RelativePath": "js/jquery-3.7.1.min#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "o1o13a6vjx",
+      "Integrity": "/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\jquery-3.7.1.min.js"
+    },
+    {
+      "Identity": "D:\\ProyectosPropios\\PaginasWeb\\CommonsNuget\\wwwroot\\js\\main.js",
+      "SourceId": "CommonsNuget",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\ProyectosPropios\\PaginasWeb\\CommonsNuget\\wwwroot\\",
+      "BasePath": "_content/CommonsNuget",
+      "RelativePath": "js/main#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "4bycxyim59",
+      "Integrity": "UJ69pSvZcBKVKHLO3K8jchFm+F3y7JAAQMHsS9cMszI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\main.js"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "background.png",
+      "AssetFile": "D:\\ProyectosPropios\\PaginasWeb\\CommonsNuget\\wwwroot\\background.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "378"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"WeOKCkI7IdJHs2kCqsKgLfiWX4/sNPbaRUspOLefkCY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 23 May 2025 15:49:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-WeOKCkI7IdJHs2kCqsKgLfiWX4/sNPbaRUspOLefkCY="
+        }
+      ]
+    },
+    {
+      "Route": "background.x2rx4ajns0.png",
+      "AssetFile": "D:\\ProyectosPropios\\PaginasWeb\\CommonsNuget\\wwwroot\\background.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "378"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"WeOKCkI7IdJHs2kCqsKgLfiWX4/sNPbaRUspOLefkCY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 23 May 2025 15:49:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "x2rx4ajns0"
+        },
+        {
+          "Name": "label",
+          "Value": "background.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-WeOKCkI7IdJHs2kCqsKgLfiWX4/sNPbaRUspOLefkCY="
+        }
+      ]
+    },
+    {
+      "Route": "CommonsNuget.1ltyx9qtqw.bundle.scp.css",
+      "AssetFile": "D:\\ProyectosPropios\\PaginasWeb\\CommonsNuget\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\CommonsNuget.bundle.scp.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "205"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"RS91EyLolhgLm5y4GnVliZ4xDcn7vyeTcf4MP4587C8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 14 Jun 2025 03:45:37 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "1ltyx9qtqw"
+        },
+        {
+          "Name": "label",
+          "Value": "CommonsNuget.bundle.scp.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-RS91EyLolhgLm5y4GnVliZ4xDcn7vyeTcf4MP4587C8="
+        }
+      ]
+    },
+    {
+      "Route": "CommonsNuget.1ltyx9qtqw.styles.css",
+      "AssetFile": "D:\\ProyectosPropios\\PaginasWeb\\CommonsNuget\\obj\\Debug\\net8.0\\scopedcss\\bundle\\CommonsNuget.styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "205"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"RS91EyLolhgLm5y4GnVliZ4xDcn7vyeTcf4MP4587C8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 14 Jun 2025 03:45:37 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "1ltyx9qtqw"
+        },
+        {
+          "Name": "label",
+          "Value": "CommonsNuget.styles.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-RS91EyLolhgLm5y4GnVliZ4xDcn7vyeTcf4MP4587C8="
+        }
+      ]
+    },
+    {
+      "Route": "CommonsNuget.bundle.scp.css",
+      "AssetFile": "D:\\ProyectosPropios\\PaginasWeb\\CommonsNuget\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\CommonsNuget.bundle.scp.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "205"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"RS91EyLolhgLm5y4GnVliZ4xDcn7vyeTcf4MP4587C8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 14 Jun 2025 03:45:37 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-RS91EyLolhgLm5y4GnVliZ4xDcn7vyeTcf4MP4587C8="
+        }
+      ]
+    },
+    {
+      "Route": "CommonsNuget.styles.css",
+      "AssetFile": "D:\\ProyectosPropios\\PaginasWeb\\CommonsNuget\\obj\\Debug\\net8.0\\scopedcss\\bundle\\CommonsNuget.styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "205"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"RS91EyLolhgLm5y4GnVliZ4xDcn7vyeTcf4MP4587C8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 14 Jun 2025 03:45:37 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-RS91EyLolhgLm5y4GnVliZ4xDcn7vyeTcf4MP4587C8="
+        }
+      ]
+    },
+    {
+      "Route": "css/adminlte.min.32enyiajfk.css",
+      "AssetFile": "D:\\ProyectosPropios\\PaginasWeb\\CommonsNuget\\wwwroot\\css\\adminlte.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1382975"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"FQ+k0mIFfWXVTaW1arh3qKx8IXX5Bm5f6QG+0pkUjaE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 23 May 2025 13:43:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "32enyiajfk"
+        },
+        {
+          "Name": "label",
+          "Value": "css/adminlte.min.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-FQ+k0mIFfWXVTaW1arh3qKx8IXX5Bm5f6QG+0pkUjaE="
+        }
+      ]
+    },
+    {
+      "Route": "css/adminlte.min.css",
+      "AssetFile": "D:\\ProyectosPropios\\PaginasWeb\\CommonsNuget\\wwwroot\\css\\adminlte.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1382975"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"FQ+k0mIFfWXVTaW1arh3qKx8IXX5Bm5f6QG+0pkUjaE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 23 May 2025 13:43:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-FQ+k0mIFfWXVTaW1arh3qKx8IXX5Bm5f6QG+0pkUjaE="
+        }
+      ]
+    },
+    {
+      "Route": "css/commons-ui.min.css",
+      "AssetFile": "D:\\ProyectosPropios\\PaginasWeb\\CommonsNuget\\wwwroot\\css\\commons-ui.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1382698"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"p5ESzzl22Hj7Zm7mPsKuKIj109KGAEp4AZ8wZgpxZpk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 29 May 2025 23:43:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-p5ESzzl22Hj7Zm7mPsKuKIj109KGAEp4AZ8wZgpxZpk="
+        }
+      ]
+    },
+    {
+      "Route": "css/commons-ui.min.dzuipm7j99.css",
+      "AssetFile": "D:\\ProyectosPropios\\PaginasWeb\\CommonsNuget\\wwwroot\\css\\commons-ui.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1382698"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"p5ESzzl22Hj7Zm7mPsKuKIj109KGAEp4AZ8wZgpxZpk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 29 May 2025 23:43:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "dzuipm7j99"
+        },
+        {
+          "Name": "label",
+          "Value": "css/commons-ui.min.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-p5ESzzl22Hj7Zm7mPsKuKIj109KGAEp4AZ8wZgpxZpk="
+        }
+      ]
+    },
+    {
+      "Route": "exampleJsInterop.6pqz8bsss0.js",
+      "AssetFile": "D:\\ProyectosPropios\\PaginasWeb\\CommonsNuget\\wwwroot\\exampleJsInterop.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "247"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"FrrTtczTUEHjkhc/zWRPC7CmxeXI0JCZGc1+76qQ8B4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 23 May 2025 15:49:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6pqz8bsss0"
+        },
+        {
+          "Name": "label",
+          "Value": "exampleJsInterop.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-FrrTtczTUEHjkhc/zWRPC7CmxeXI0JCZGc1+76qQ8B4="
+        }
+      ]
+    },
+    {
+      "Route": "exampleJsInterop.js",
+      "AssetFile": "D:\\ProyectosPropios\\PaginasWeb\\CommonsNuget\\wwwroot\\exampleJsInterop.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "247"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"FrrTtczTUEHjkhc/zWRPC7CmxeXI0JCZGc1+76qQ8B4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 23 May 2025 15:49:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-FrrTtczTUEHjkhc/zWRPC7CmxeXI0JCZGc1+76qQ8B4="
+        }
+      ]
+    },
+    {
+      "Route": "img/logo.jpg",
+      "AssetFile": "D:\\ProyectosPropios\\PaginasWeb\\CommonsNuget\\wwwroot\\img\\logo.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8616"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ECWdcCeyPdDDNzoQt0V7MbXagABYQ3UGX+F81E5nsKU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 07 May 2025 18:44:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ECWdcCeyPdDDNzoQt0V7MbXagABYQ3UGX+F81E5nsKU="
+        }
+      ]
+    },
+    {
+      "Route": "img/logo.ouagw80s3n.jpg",
+      "AssetFile": "D:\\ProyectosPropios\\PaginasWeb\\CommonsNuget\\wwwroot\\img\\logo.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8616"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ECWdcCeyPdDDNzoQt0V7MbXagABYQ3UGX+F81E5nsKU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 07 May 2025 18:44:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ouagw80s3n"
+        },
+        {
+          "Name": "label",
+          "Value": "img/logo.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ECWdcCeyPdDDNzoQt0V7MbXagABYQ3UGX+F81E5nsKU="
+        }
+      ]
+    },
+    {
+      "Route": "js/adminlte.min.9v1wmpbcea.js",
+      "AssetFile": "D:\\ProyectosPropios\\PaginasWeb\\CommonsNuget\\wwwroot\\js\\adminlte.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "44244"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"dVs7YxkIJMdWKIx+E4Z7KGIrsH2P7MHj4WDNvzTzsQU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 23 May 2025 13:42:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "9v1wmpbcea"
+        },
+        {
+          "Name": "label",
+          "Value": "js/adminlte.min.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-dVs7YxkIJMdWKIx+E4Z7KGIrsH2P7MHj4WDNvzTzsQU="
+        }
+      ]
+    },
+    {
+      "Route": "js/adminlte.min.js",
+      "AssetFile": "D:\\ProyectosPropios\\PaginasWeb\\CommonsNuget\\wwwroot\\js\\adminlte.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "44244"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"dVs7YxkIJMdWKIx+E4Z7KGIrsH2P7MHj4WDNvzTzsQU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 23 May 2025 13:42:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-dVs7YxkIJMdWKIx+E4Z7KGIrsH2P7MHj4WDNvzTzsQU="
+        }
+      ]
+    },
+    {
+      "Route": "js/bootstrap.min.9cwz7g1qx8.js",
+      "AssetFile": "D:\\ProyectosPropios\\PaginasWeb\\CommonsNuget\\wwwroot\\js\\bootstrap.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "60044"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ecWZ3XYM7AwWIaGvSdmipJ2l1F4bN9RXW6zgpeAiZYI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 29 May 2025 23:29:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "9cwz7g1qx8"
+        },
+        {
+          "Name": "label",
+          "Value": "js/bootstrap.min.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ecWZ3XYM7AwWIaGvSdmipJ2l1F4bN9RXW6zgpeAiZYI="
+        }
+      ]
+    },
+    {
+      "Route": "js/bootstrap.min.js",
+      "AssetFile": "D:\\ProyectosPropios\\PaginasWeb\\CommonsNuget\\wwwroot\\js\\bootstrap.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "60044"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ecWZ3XYM7AwWIaGvSdmipJ2l1F4bN9RXW6zgpeAiZYI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 29 May 2025 23:29:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ecWZ3XYM7AwWIaGvSdmipJ2l1F4bN9RXW6zgpeAiZYI="
+        }
+      ]
+    },
+    {
+      "Route": "js/commons-ui.min.js",
+      "AssetFile": "D:\\ProyectosPropios\\PaginasWeb\\CommonsNuget\\wwwroot\\js\\commons-ui.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "190677"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Bu4O5eTXOoH3M0JYvZPaSyiwxY+lhINwG20kNhV9DPU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 29 May 2025 23:43:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Bu4O5eTXOoH3M0JYvZPaSyiwxY+lhINwG20kNhV9DPU="
+        }
+      ]
+    },
+    {
+      "Route": "js/commons-ui.min.q0esc8benk.js",
+      "AssetFile": "D:\\ProyectosPropios\\PaginasWeb\\CommonsNuget\\wwwroot\\js\\commons-ui.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "190677"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Bu4O5eTXOoH3M0JYvZPaSyiwxY+lhINwG20kNhV9DPU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 29 May 2025 23:43:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "q0esc8benk"
+        },
+        {
+          "Name": "label",
+          "Value": "js/commons-ui.min.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Bu4O5eTXOoH3M0JYvZPaSyiwxY+lhINwG20kNhV9DPU="
+        }
+      ]
+    },
+    {
+      "Route": "js/jquery-3.7.1.min.js",
+      "AssetFile": "D:\\ProyectosPropios\\PaginasWeb\\CommonsNuget\\wwwroot\\js\\jquery-3.7.1.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "87533"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 23 May 2025 14:40:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+        }
+      ]
+    },
+    {
+      "Route": "js/jquery-3.7.1.min.o1o13a6vjx.js",
+      "AssetFile": "D:\\ProyectosPropios\\PaginasWeb\\CommonsNuget\\wwwroot\\js\\jquery-3.7.1.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "87533"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 23 May 2025 14:40:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "o1o13a6vjx"
+        },
+        {
+          "Name": "label",
+          "Value": "js/jquery-3.7.1.min.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+        }
+      ]
+    },
+    {
+      "Route": "js/main.4bycxyim59.js",
+      "AssetFile": "D:\\ProyectosPropios\\PaginasWeb\\CommonsNuget\\wwwroot\\js\\main.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1422"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"UJ69pSvZcBKVKHLO3K8jchFm+F3y7JAAQMHsS9cMszI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 14 Jun 2025 03:18:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "4bycxyim59"
+        },
+        {
+          "Name": "label",
+          "Value": "js/main.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-UJ69pSvZcBKVKHLO3K8jchFm+F3y7JAAQMHsS9cMszI="
+        }
+      ]
+    },
+    {
+      "Route": "js/main.js",
+      "AssetFile": "D:\\ProyectosPropios\\PaginasWeb\\CommonsNuget\\wwwroot\\js\\main.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1422"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"UJ69pSvZcBKVKHLO3K8jchFm+F3y7JAAQMHsS9cMszI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 14 Jun 2025 03:18:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-UJ69pSvZcBKVKHLO3K8jchFm+F3y7JAAQMHsS9cMszI="
+        }
+      ]
+    }
+  ]
+}

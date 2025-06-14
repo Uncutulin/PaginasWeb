@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>CommonsNuget</id>
+    <version>1.0.0</version>
+    <authors>Jorge Cutuli</authors>
+    <description>Paquete que incluye AdminLTE y View Components para uso en ASP.NET MVC.</description>
+    <tags>AdminLTE RazorClassLibrary MVC ViewComponents</tags>
+    <repository type="git" />
+    <dependencies>
+      <group targetFramework="net8.0">
+        <dependency id="Microsoft.AspNetCore.Components.Web" version="8.0.15" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.AspNetCore.Http.Abstractions" version="2.3.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.AspNetCore.Mvc.Razor" version="2.3.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.AspNetCore.Mvc.ViewFeatures" version="2.3.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+    <contentFiles>
+      <files include="any/net8.0/bundleconfig.json" buildAction="Content" />
+    </contentFiles>
+  </metadata>
+  <files>
+    <file src="D:\ProyectosPropios\PaginasWeb\CommonsNuget\bin\Debug\net8.0\CommonsNuget.dll" target="lib\net8.0\CommonsNuget.dll" />
+    <file src="D:\ProyectosPropios\PaginasWeb\CommonsNuget\bundleconfig.json" target="content\bundleconfig.json" />
+    <file src="D:\ProyectosPropios\PaginasWeb\CommonsNuget\bundleconfig.json" target="contentFiles\any\net8.0\bundleconfig.json" />
+    <file src="D:\ProyectosPropios\PaginasWeb\CommonsNuget\obj\Debug\net8.0\scopedcss\projectbundle\CommonsNuget.bundle.scp.css" target="staticwebassets\CommonsNuget.1ltyx9qtqw.bundle.scp.css" />
+    <file src="D:\ProyectosPropios\PaginasWeb\CommonsNuget\wwwroot\background.png" target="staticwebassets\background.png" />
+    <file src="D:\ProyectosPropios\PaginasWeb\CommonsNuget\wwwroot\css\adminlte.min.css" target="staticwebassets\css\adminlte.min.css" />
+    <file src="D:\ProyectosPropios\PaginasWeb\CommonsNuget\wwwroot\css\commons-ui.min.css" target="staticwebassets\css\commons-ui.min.css" />
+    <file src="D:\ProyectosPropios\PaginasWeb\CommonsNuget\wwwroot\exampleJsInterop.js" target="staticwebassets\exampleJsInterop.js" />
+    <file src="D:\ProyectosPropios\PaginasWeb\CommonsNuget\wwwroot\img\logo.jpg" target="staticwebassets\img\logo.jpg" />
+    <file src="D:\ProyectosPropios\PaginasWeb\CommonsNuget\wwwroot\js\adminlte.min.js" target="staticwebassets\js\adminlte.min.js" />
+    <file src="D:\ProyectosPropios\PaginasWeb\CommonsNuget\wwwroot\js\bootstrap.min.js" target="staticwebassets\js\bootstrap.min.js" />
+    <file src="D:\ProyectosPropios\PaginasWeb\CommonsNuget\wwwroot\js\commons-ui.min.js" target="staticwebassets\js\commons-ui.min.js" />
+    <file src="D:\ProyectosPropios\PaginasWeb\CommonsNuget\wwwroot\js\jquery-3.7.1.min.js" target="staticwebassets\js\jquery-3.7.1.min.js" />
+    <file src="D:\ProyectosPropios\PaginasWeb\CommonsNuget\wwwroot\js\main.js" target="staticwebassets\js\main.js" />
+    <file src="D:\ProyectosPropios\PaginasWeb\CommonsNuget\obj\Debug\net8.0\staticwebassets\msbuild.CommonsNuget.Microsoft.AspNetCore.StaticWebAssetEndpoints.props" target="build\Microsoft.AspNetCore.StaticWebAssetEndpoints.props" />
+    <file src="D:\ProyectosPropios\PaginasWeb\CommonsNuget\obj\Debug\net8.0\staticwebassets\msbuild.CommonsNuget.Microsoft.AspNetCore.StaticWebAssets.props" target="build\Microsoft.AspNetCore.StaticWebAssets.props" />
+    <file src="D:\ProyectosPropios\PaginasWeb\CommonsNuget\obj\Debug\net8.0\staticwebassets\msbuild.build.CommonsNuget.props" target="build\CommonsNuget.props" />
+    <file src="D:\ProyectosPropios\PaginasWeb\CommonsNuget\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.CommonsNuget.props" target="buildMultiTargeting\CommonsNuget.props" />
+    <file src="D:\ProyectosPropios\PaginasWeb\CommonsNuget\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.CommonsNuget.props" target="buildTransitive\CommonsNuget.props" />
+  </files>
+</package>

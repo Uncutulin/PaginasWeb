@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35931.197
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaginasWeb", "PaginasWeb\PaginasWeb.csproj", "{7DB74294-DBD9-466E-9F06-447466C9C978}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommonsNuget", "CommonsNuget\CommonsNuget.csproj", "{F314FF18-EC30-49D0-A5F5-3836DDDD5ACD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7DB74294-DBD9-466E-9F06-447466C9C978}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7DB74294-DBD9-466E-9F06-447466C9C978}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7DB74294-DBD9-466E-9F06-447466C9C978}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7DB74294-DBD9-466E-9F06-447466C9C978}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F314FF18-EC30-49D0-A5F5-3836DDDD5ACD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F314FF18-EC30-49D0-A5F5-3836DDDD5ACD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F314FF18-EC30-49D0-A5F5-3836DDDD5ACD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F314FF18-EC30-49D0-A5F5-3836DDDD5ACD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E6ED35CC-61A9-43D8-AA09-D1F9E76B46E7}
+	EndGlobalSection
+EndGlobal

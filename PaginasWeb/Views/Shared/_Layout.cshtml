@@ -1,0 +1,39 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CommonsNugetDev</title>
+
+    <link rel="stylesheet" href="~/_content/CommonsNuget/css/commons-ui.min.css" />
+</head>
+<body class="hold-transition sidebar-mini layout-fixed">
+    <div class="wrapper">
+        <!-- Header -->
+        @await Component.InvokeAsync("MainHeader")
+
+        <!-- Sidebar -->
+        @await Component.InvokeAsync("MainSidebar")
+        <header>
+        </header>
+        <div class="content-wrapper">
+            <main role="main" class="pb-3">
+                <div class="container-fluid">
+                    <br />
+                    @RenderBody()
+                </div>
+            </main>
+        </div>
+    </div>
+
+    <footer class="border-top footer text-muted">
+        <div class="container">
+            &copy; 2025@*  - CommonsNugetDev -  <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>*@
+        </div>
+    </footer>
+    <script src="~/_content/CommonsNuget/js/commons-ui.min.js"></script>
+    <script src="https://kit.fontawesome.com/b091768c18.js" crossorigin="anonymous"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

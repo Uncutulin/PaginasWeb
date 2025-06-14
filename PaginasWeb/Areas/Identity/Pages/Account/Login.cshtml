@@ -1,0 +1,33 @@
+﻿@page
+@model LoginModel
+
+@{
+    ViewData["Title"] = "Paginas Web";
+}
+
+<h1 style="text-align: center;">@ViewData["Title"]</h1>
+
+<div class="card">
+    <div class="card-body login-card-body">
+        <p class="login-box-msg" style="text-align: center;">Iniciar Sesión</p>
+        <div asp-validation-summary="ModelOnly" class="text-danger" role="alert"></div>
+        <form id="account" method="post">
+            <div class="input-group mb-3">
+                <input asp-for="Input.Email" class="form-control" class="form-control" placeholder="Email">
+            </div>
+            <div class="input-group mb-4">
+                <input asp-for="Input.Password" class="form-control">
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <button id="login-submit" type="submit" class="btn btn-primary btn-block">Ingresar</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}
