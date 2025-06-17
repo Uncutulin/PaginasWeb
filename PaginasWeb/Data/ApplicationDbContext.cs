@@ -15,5 +15,6 @@ namespace PaginasWeb.Data
         //BASICAS
         public DbSet<Persona> Persona { get; set; }
         public DbSet<Usuario> Usuario { get; set; }
+        public DbSet<Sitios> Sitios { get; set; }
     }
 }

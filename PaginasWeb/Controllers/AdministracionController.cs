@@ -4,10 +4,10 @@ using PaginasWeb.Models;
 
 namespace PaginasWeb.Controllers
 {
-    public class HomeController : Controller
+    public class AdministracionController : BaseController
     {
 
-        public HomeController()
+        public AdministracionController()
         {
         }
 

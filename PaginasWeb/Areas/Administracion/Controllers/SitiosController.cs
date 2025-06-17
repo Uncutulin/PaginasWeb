@@ -1,13 +1,14 @@
 using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
+using PaginasWeb.Controllers;
 using PaginasWeb.Models;
 
-namespace PaginasWeb.Controllers
+namespace PaginasWeb.Administracion.Controllers
 {
-    public class HomeController : Controller
+    public class SitiosController : BaseController
     {
 
-        public HomeController()
+        public SitiosController()
         {
         }
 
