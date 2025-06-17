@@ -1,18 +1,25 @@
 ﻿
 using CommonsNuget.Models.Shared;
 using Microsoft.AspNetCore.Mvc;
+using PaginasWeb.Data;
+using PaginasWeb.Models.Administracion;
 using System.Drawing;
 
 namespace PaginasWeb.ViewComponents
 {
     public class MainHeaderViewComponent : ViewComponent
-    { 
-        public MainHeaderViewComponent()
-        { 
+    {
+        public ApplicationDbContext _context;
+        public MainHeaderViewComponent(ApplicationDbContext context)
+        {
+            _context = context;
         }
         public IViewComponentResult Invoke()
         {
-            ViewBag.UserName = "Usuario"; // Esto podrías sacarlo del ClaimsPrincipal  
+            var userName = this.User.Identity.Name;
+            Usuario usuario = _context.Usuario.Where(u => u.UserName == userName).FirstOrDefault();
+
+            ViewBag.UserName = usuario?.UserName; // Esto podrías sacarlo del ClaimsPrincipal  
             ViewBag.UserAvatar = "/img/user.jpg"; // o un avatar por defecto si no hay
             ViewBag.backgroundColor = "#343a40;"; // Color del NavBar
             ViewBag.TextColor = "#ffffff;"; // Color de Texto del NavBar

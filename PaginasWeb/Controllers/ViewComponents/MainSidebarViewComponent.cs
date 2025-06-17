@@ -22,21 +22,16 @@ namespace PaginasWeb.ViewComponents
             var mantenimiento = MenuHelpers.AddTree("Mantenimiento", "fa fa-wrench"); // Icono cambiado para variedad
             var reportes = MenuHelpers.AddTree("Reportes", "fa fa-bar-chart"); // Icono cambiado
             var sistemas = MenuHelpers.AddTree("Sistemas", "fa fa-cogs"); // 'administrador' renombrado a 'sistemas' para claridad, icono cambiado
-            
 
-            var dashboard = MenuHelpers.AddModule("Evolución de la Cartera", "/Dashboard", "fa-solid fa-chart-line");
-            var dashboard2 = MenuHelpers.AddModule("Ranking de Compañías / Productores", "/Dashboard/Index2", "fa-solid fa-chart-simple");
-            var dashboard3 = MenuHelpers.AddModule("Producción de Compañías Estratégicas", "/Dashboard/Index3", "fa-solid fa-building");    
-
-
-            var instalacion = MenuHelpers.AddModule("Instalación", "/Home/Instalacion", "nav-icon fas fa-microchip");
+            var dashboard = MenuHelpers.AddModule("Dashboard", "/Home", "fa-solid fa-house");
+            var sitios = MenuHelpers.AddModule("Sitios", "/Administracion/Sitios", "fa-solid fa-desktop");
             var adminlte = MenuHelpers.AddModule("AdminLTE 3", "https://adminlte.io/themes/v3/index.html", "fa-solid fa-a", null, true);
 
             // --- Gestión (Nivel 1) ----------
             gestion.TreeChild = new List<SidebarMenu>();
             // Nivel 2 para Gestión
-            gestion.TreeChild.Add(MenuHelpers.AddModule("Extintores", "/Administracion/Extintores/Index", "far fa-circle text-purple")); // Usando far para iconos huecos
-            gestion.TreeChild.Add(MenuHelpers.AddModule("Unidades", "/Administracion/Unidades/Index", "far fa-circle text-purple"));
+            gestion.TreeChild.Add(MenuHelpers.AddModule("Plantillas", "/Administracion/Extintores/Index", "far fa-circle text-purple")); // Usando far para iconos huecos
+            gestion.TreeChild.Add(MenuHelpers.AddModule("Plantillas 2", "/Administracion/Unidades/Index", "far fa-circle text-purple"));
 
             // --- Mantenimiento (Nivel 1) ----
             mantenimiento.TreeChild = new List<SidebarMenu>();
@@ -68,24 +63,21 @@ namespace PaginasWeb.ViewComponents
 
 
             // Añade los ítems de Nivel 1 al menú principal (sidebars)
-
             sidebars.Add(dashboard);
-            sidebars.Add(dashboard2);
-            sidebars.Add(dashboard3);
-            //sidebars.Add(instalacion);
-            //sidebars.Add(adminlte);
-            //sidebars.Add(gestion);
-            //sidebars.Add(mantenimiento);
-            // sidebars.Add(reportes); // Descomenta si quieres añadir la sección Reportes (actualmente sin hijos)
+            sidebars.Add(sitios);
+            sidebars.Add(gestion);
+            sidebars.Add(mantenimiento);
+            sidebars.Add(reportes); // Descomenta si quieres añadir la sección Reportes (actualmente sin hijos)
             sidebars.Add(sistemas);
+            sidebars.Add(adminlte);
             sidebars.Add(MenuHelpers.AddModule("Salir", "javascript:document.getElementById('logoutForm').submit()", "fa fa-sign-out-alt")); // Icono cambiado
 
             // --> Comprueba cuántos ítems hay
             System.Diagnostics.Debug.WriteLine($"[SidebarVC] total items root = {sidebars.Count}");
 
             // Pasamos el nombre de la app al ViewBag
-            ViewBag.AppName = "Commons Net 8";
-            ViewBag.LogoPath = "/img/logo.png"; // Ajusta la ruta según tu proyecto
+            ViewBag.AppName = "Char-Web";
+            ViewBag.LogoPath = "/img/Logo.png"; // Ajusta la ruta según tu proyecto
 
 
             return View(sidebars);           //  <--  pasa el modelo
