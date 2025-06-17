@@ -1,5 +1,19 @@
 ﻿@{
-    Layout = null;
     ViewData["Title"] = "Home Page";
 }
-<h1>Hola</h1>
+
+<div class="text-center">
+    <h1 class="text-3xl font-bold underline bg-blue-500">
+        Hello world!
+    </h1>
+    <p class="my-4">Este contenido es de Razor.</p>
+</div>
+
+<hr class="my-6" />
+
+<div id="react-counter-container" data-start-value="5"></div>
+
+
+@section Scripts {
+    <script src="~/js/react-bundle.js"></script>
+}
