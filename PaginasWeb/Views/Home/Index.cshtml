@@ -1,19 +1,16 @@
 ﻿@{
-    ViewData["Title"] = "Home Page";
+    Layout = "_LayoutEstilos";
 }
 
-<div class="text-center">
-    <h1 class="text-3xl font-bold underline bg-blue-500">
-        Hello world!
-    </h1>
-    <p class="my-4">Este contenido es de Razor.</p>
+<div class="min-h-screen bg-gradient-to-br from-blue-100 to-blue-300 flex items-center justify-center">
+    <div class="bg-white rounded-2xl shadow-xl p-10 max-w-md w-full text-center">
+        <img src="~/img/Logo.png" alt="Logo" class="w-20 h-20 mx-auto mb-6 rounded-full shadow" />
+        <h1 class="text-3xl font-bold text-blue-700 mb-4">¡Bienvenido a PaginasWeb!</h1>
+        <p class="text-gray-700 mb-6">
+            Proyecto de ejemplo con <span class="font-semibold text-blue-500">Tailwind CSS</span> y ASP.NET Razor.
+        </p>
+        <a href="/Administracion" class="inline-block bg-blue-600 text-white px-6 py-2 rounded-xl font-medium shadow hover:bg-blue-700 transition"> 
+            Treend
+        </a>
+    </div>
 </div>
-
-<hr class="my-6" />
-
-<div id="react-counter-container" data-start-value="5"></div>
-
-
-@section Scripts {
-    <script src="~/js/react-bundle.js"></script>
-}
